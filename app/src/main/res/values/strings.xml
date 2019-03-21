@@ -1,0 +1,109 @@
+<resources>
+    <string name="app_name">Popular Movies</string>
+
+    <!-- Category name for the section Animation [CHAR LIMIT=20] -->
+    <string name="category_animation">Animation Report</string>
+    <!-- Category name for the section Horror [CHAR LIMIT=20] -->
+    <string name="category_horror">Horror Report</string>
+    <!-- Category name for the section Action [CHAR LIMIT=20] -->
+    <string name="category_action">Action Report</string>
+    <!-- Category name for the section Drama [CHAR LIMIT=20] -->
+    <string name="category_drama">Drama Report</string>
+    <!-- Description of the image. -->
+    <string name="description_of_the_news">Description of the Movies</string>
+    <string name="title" translatable="false">Spiderman: into the spiderverse</string>
+    <string name="release_date">Release Date</string>
+    <string name="example_release_date">11/05/2018</string>
+    <string name="vote_average">Vote Average</string>
+    <string name="date">2018\-12\-29T17:57:47Z</string>
+    <string name="example_overview" translatable="false">Trata de un chico llamado Miles Morales que es picado por una araña, convirtiendose en SpiderMan</string>
+    <string name="autherName">Martin Belam</string>
+
+    <!-- Text to display in the list when there are no news [CHAR LIMIT=NONE] -->
+    <string name="no_movies">No movies found.</string>
+    <!-- Error message when there is no internet connectivity [CHAR LIMIT=NONE] -->
+    <string name="no_internet_connection">No internet connection.</string>
+    <!-- Text to display in the settings [CHAR LIMIT=NONE] -->
+    <string name="settings_menu_item">Settings</string>
+    <!-- Text to display inside the settings activity [CHAR LIMIT=NONE] -->
+    <string name="settings_tittle">Movies Settings</string>
+
+    <!-- Strings For Order-By Preference [CHAR LIMIT=30] -->
+    <string name="settings_order_by_label">Order By</string>
+    <string name="settings_order_by_key" translatable="false">sort_by</string>
+    <string name="settings_order_by_default" translatable="false">@string/settings_order_by_popularity_value</string>
+
+    <!-- Label for order-by with more popularity option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_popularity_label">Popular</string>
+    <string name="settings_order_by_popularity_value" translatable="false">popular</string>
+
+    <!-- Label for order-by top rated option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_toprated_label" translatable="false">Top Rated</string>
+    <string name="settings_order_by_toprated_value" translatable="false">top_rated</string>
+
+    <!-- Label for order-by now playing option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_nowplaying_label">Now Playing</string>
+    <string name="settings_order_by_nowplaying_value">now_playing</string>
+
+    <!-- Label for order-by now playing option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_upcoming_label">Upcoming</string>
+    <string name="settings_order_by_upcoming_value">upcoming</string>
+    <!-- Label for order-by more recent option [CHAR LIMIT=20] -->
+    <!--
+    <string name="settings_order_by_popularity_asc_label">Most Popular</string>
+    <string name="settings_order_by_popularity_asc_value" translatable="false">popularity.asc</string>-->
+
+    <!-- Label for order-by less recent option [CHAR LIMIT=20] -->
+    <!--
+    <string name="settings_order_by_popularity_desc_label">Less Popular</string>
+    <string name="settings_order_by_popularity_desc_value" translatable="false">popularity.desc</string>-->
+
+    <!-- Label for order-by relevance option [CHAR LIMIT=20] -->
+    <!--
+    <string name="settings_order_by_release_asc_label">Recent Release</string>
+    <string name="settings_order_by_release_asc_value" translatable="false">release_date.asc</string>-->
+
+    <!-- Label for order-by relevance option [CHAR LIMIT=20] -->
+    <!--
+    <string name="settings_order_by_release_desc_label">Oldest Release</string>
+    <string name="settings_order_by_release_desc_value" translatable="false">release_date.desc</string>-->
+
+    <!-- Name of the city for all the options [CHAR LIMIT=20] -->
+    <string name="name_city" translatable="false">Merida, Yucatan</string>
+
+    <!-- Contact information of the developer [CHAR LIMIT=20] -->
+    <string name="contact_info">info@galpotechsolutions.com</string>
+
+    <!-- Message for Share option in Menu[CHAR LIMIT=20] -->
+    <string name="share_menu">Share</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- Category name for the section Animation [CHAR LIMIT=20] -->
+    <string name="animation">Animation</string>
+    <string name="horror">Horror</string>
+    <string name="drama">Drama</string>
+    <string name="action">Action</string>
+    <string name="share">Share</string>
+    <string name="category_detail">Details</string>
+
+    <!-- Base URL request [CHAR LIMIT=20] -->
+    <string name="MOVIE_REQUEST_URL">https://api.themoviedb.org/3/movie</string>
+    <!-- Api Key [CHAR LIMIT=20] -->
+    <string name="api_key"></string>
+    <!-- language [CHAR LIMIT=20] -->
+    <string name="language">en-US</string>
+    <!-- Action genres [CHAR LIMIT=20] -->
+    <string name="action_genres">28</string>
+    <!-- Animation genres [CHAR LIMIT=20] -->
+    <string name="animation_genres">16</string>
+    <!-- Drama genres [CHAR LIMIT=20] -->
+    <string name="drama_genres">18</string>
+    <!-- Horror genres [CHAR LIMIT=20] -->
+    <string name="horror_genres">27</string>
+
+    <!-- Parcel movie-->
+    <string name="parcel_movie">PARCEL_MOVIE</string>
+
+</resources>

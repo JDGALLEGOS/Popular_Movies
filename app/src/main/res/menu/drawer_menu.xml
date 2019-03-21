@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_animation"
+            android:icon="@drawable/ic_animation"
+            android:title="@string/animation" />
+        <item android:id="@+id/nav_horror"
+            android:icon="@drawable/ic_animation"
+            android:title="@string/horror" />
+        <item android:id="@+id/nav_action"
+            android:icon="@drawable/ic_animation"
+            android:title="@string/action" />
+        <item android:id="@+id/nav_drama"
+            android:icon="@drawable/ic_animation"
+            android:title="@string/drama" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item android:id="@+id/nav_share"
+                android:icon="@drawable/ic_share"
+                android:title="@string/share" />
+        </menu>
+    </item>
+
+</menu>
